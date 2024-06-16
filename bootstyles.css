@@ -1,0 +1,92 @@
+body {
+    background-color:ivory;
+    font-family:'Courier New', Courier, monospace;
+    color:darkgray;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+.common {
+    position: absolute;
+}
+
+.header {
+    top:5px;
+    left:5px;
+    right:5px;
+    height:100px;
+    z-index:2px; /* z-index the order image should be layed out on a page*/
+    border-bottom: solid 4px;
+    color:lightcoral;
+}
+
+.subheader {
+    float:right;
+    font-size: 15px;
+}
+
+.underline {
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+a {
+    color:darksalmon;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+a:visited {
+    color:skyblue;
+}
+
+.leftmenu {
+    top:114px;
+    left:5px;
+    width:100px;
+    bottom:64px; /*anchor doesn't resize*/
+    z-index:1px;
+    padding-top: 35px;
+}
+
+.mainbody {
+    top:114px;
+    bottom:64px; /* resize horizontally*/
+    left:114px;
+    right:114px;
+}
+
+.rightmenu {
+    top:114px;
+    bottom:64px;
+    right:5px;
+    width:100px;
+}
+
+.footer {
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    height: 50px;
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    font-style:oblique;
+    font-family: monospace;
+}
+
+.box1 {
+    border-width: 3px;
+    border-style:dotted;
+    border-color:turquoise; 
+    background-color: peachpuff;
+    border: 3px solid peachpuff;
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+    color:indianred;
+    font-size:18px;
+    /*margin: 50px;*/
+}
